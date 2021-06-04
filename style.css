@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(232, 179, 211);
+  color: black;
+  font-family: "Abril Fatface", cursive;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 100px;
+  margin: 0;
+}
+
+.cuadro {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cuadro2 { background-color: rgb(232, 179, 211); }
+
+#pets {
+  background-image: url("https://www.thesprucepets.com/thmb/PlYy3D9k0uje7_fDKyJ-1cBGtls=/1024x640/filters:no_upscale():max_bytes(150000):strip_icc()/4985392932_ca67a39f42_b-5bd3394946e0fb0058b033cc.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 425px;
+  border: solid 3px black;
+  border-radius: 20px;
+}
+
+
+h2 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-left: dotted 2px white;
+  border-right: dotted 2px white;
+  border-bottom: dotted 2px white;
+  border-radius: 20px;
+}
+
+td {
+  text-align: left;
+  padding: 10px 15px;
+  
+}
+
+th {
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+tr.ctitulo {
+  background-color: rgb(126, 38, 91);
+  height: 50px;
+}
+
+.relleno {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;  
+}
+
+.intro {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.7;
+}
+
+img { width: 250px; 
+      display:block;
+      margin:auto;
+      border: 8px dotted purple;
+}
+
+
+a {
+  display: block;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.aimagen {
+  display: flex;
+  margin-left: 2px;
+  margin-right: 2px;
+  
+}
+
+.aimagenes {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left:480px;
+}
+
+#adopcion {
+  margin-top: 20px;
+  margin-bottom: 10px;  
+}
+
+a:hover { 
+  background-color: rgb(171, 90, 139);
+}
+
+.alin {
+  display: flex;
+}
